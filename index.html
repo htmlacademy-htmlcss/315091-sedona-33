@@ -5,8 +5,191 @@
     <title>HTML Academy: Седона</title>
   </head>
   <body>
+    <header class="page-header">
+      <nav class="navigation">
+        <ul class="navigation-list">
+          <li class="navigation-item">
+            <a class="navigation-link" href="index.html">
+              <img src="#" alt="Sedona's logo">
+            </a>
+          </li>
+          <li class="navigation-item">
+            <a class="navigation-link" href="index.html">Главная</a>
+          </li>
+          <li class="navigation-item">
+            <a class="navigation-link" href="#">О Седоне</a>
+          </li>
+          <li class="navigation-item">
+            <a class="navigation-link" href="catalog.html">Гостиницы</a>
+          </li>
+          <li class="navigation-item">
+            <a class="navigation-link" href="#">
+              <span class="visually-hidden">Поиск</span>
+            </a>
+          </li>
+          <li class="navigation-item">
+            <a class="navigation-link" href="#">
+              <span class="visually-hidden">Любимое</span>
+            </a>
+          </li>
+          <li class="navigation-item">
+            <a class="navigation-link" href="#">Хочу сюда!</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="title">
+        <h1 class="visually-hidden">Седона</h1>
+        <b>Cедона — небольшой городок в аризоне, заслуживающий большего!</b>
+        <p>Pассмотрим 5 причин, по которым Седона круче, чем Гранд Каньон!</p>
+      </div>
+      <section class="advantages">
+        <h2 class="visually-hidden">Преимущества Седоны</h2>
+        <section class="advantage">
+          <h2 class="visually-hidden">Преимущество: Настоящий городок</h2>
+          <div class="advantage-item">
+            <b>Настоящий городок</b>
+            <span>— №1 —</span>
+            <p>Седона — не аттракцион для туристов, там течёт своя жизнь</p>
+          </div>
+          <img src="#" alt="Фотография вида Седоны">
+        </section>
+        <section class="advices">
+          <h2 class="visually-hidden">Советы</h2>
+          <div class="advice-item">
+            <b>Жильё</b>
+            <p>Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
+          </div>
+          <div class="advice-item">
+            <b>Еда</b>
+            <p>Всегда заказывайте топовый фирменный бургер, вы не разочаруетесь!</p>
+          </div>
+          <div class="advice-item">
+            <b>Сувениры</b>
+            <p>Не только китайского, но и настоящего местного производства!</p>
+          </div>
+        </section>
+        <section class="advantage">
+          <h2 class="visually-hidden">Преимущество: Там есть мост дьявола</h2>
+          <div class="advantage-item">
+              <b>Там есть мост дьявола</b>
+              <span>— №2 —</span>
+              <p>Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
+          </div>
+          <img src="#" alt="Фотография вида каньона">
+        </section>
+        <section class="advantage">
+          <h2 class="visually-hidden">Еще три преимущества</h2>
+          <div class="advantage-item">
+            <b>Небольшая площадь</b>
+            <span>— №3 —</span>
+            <p>Все достопримечательности находятся очень близко</p>
+          </div>
+          <div class="advantage-item">
+            <b>Красивая дорога</b>
+            <span>— №4 —</span>
+            <p>Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
+          </div>
+          <div class="advantage-item">
+            <b>Мало туристов</b>
+            <span>— №5 —</span>
+            <p>Большинство едет в Гранд Каньон и толпится там</p>
+          </div>
+        </section>
+      </section>
+      <div class="interest">
+        <b>Заинтересовались?</b>
+        <p>Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне</p>
+        <a href="#">поиск гостиницы в седоне</a>
+        <div class="hotel-search-form">
+          <p>Поиск гостиницы в седоне</p>
+          <form class="search-hotel-form" action="https://echo.htmlacademy.ru/" method="get">
+            <div class="form-content">
+                <div class="date-in-form form-item">
+                    <label class="date-in" for="date-in">Дата заезда:</label>
+                    <input class="form-date-in" type="text" name="date-in" id="date-in" value="27 апреля 2020">
 
-    <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">HTML и CSS. Профессиональная вёрстка сайтов</a>».</p>
+                    <button class="calendar" type="button">
+                      <span class="visually-hidden">календарь</span>
+                    </button>
+                </div>
+                <div class="date-out-form form-item">
+                    <label class="date-out" for="date-out">Дата выезда:</label>
+                    <input class="form-date-out" type="text" name="date-out" id="date-out" value="1 сентября 2021">
 
+                    <button class="calendar" type="button">
+                      <span class="visually-hidden">календарь</span>
+                    </button>
+                </div>
+                <div class="adults-form form-item">
+                    <label for="adults">взрослые:</label>
+                    <div class="input-adults">
+                        <button class="btn-adult minus" type="button">
+                          <span class="visually-hidden">-</span>
+                        </button>
+
+                        <input class="form-adults" type="text" name="adults" id="adults" value="2">
+
+                        <button class="btn-adult plus" type="button">
+                          <span class="visually-hidden">+</span>
+                        </button>
+                    </div>
+                </div>
+                <div class="kids-form form-item">
+                    <label for="kids">дети:</label>
+                    <div class="input-kids">
+                        <button class="btn-kids minus" type="button">
+                          <span class="visually-hidden">-</span>
+                        </button>
+
+                        <input class="form-kids" type="text" name="kids" id="kids" value="1">
+
+                        <button class="btn-kids plus" type="button">
+                          <span class="visually-hidden">+</span>
+                        </button>
+                    </div>
+                </div>
+                <input class="form-search-button" type="submit" value="найти">
+            </div>
+        </form>
+        </div>
+      </div>
+      <section class="subscribe">
+        <h2>Подпишитесь на рассылку</h2>
+        <p>Только полезная информация и никакого спама, честное бойскаутское!</p>
+        <form action="https://echo.htmlacademy.ru/" method="post">
+          <label class="visually-hidden" for="email-field">Ваш E-mail</label>
+          <input type="email" id="email-field" name="email" placeholder="Ваш E-mail">
+          <button type="submit">Подписаться</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <section class="social">
+        <h2 class="visually-hidden">Социальные сети</h2>
+        <ul class="social-list">
+          <li class="social-item">
+            <a class="social-link" href="https://twitter.com/htmlacademy_ru">
+              <span class="visually-hidden">Twitter</span>
+            </a>
+          </li>
+          <li class="social-item">
+            <a class="social-link" href="https://www.facebook.com/htmlacademy">
+              <span class="visually-hidden">Facebook</span>
+            </a>
+          </li>
+          <li class="social-item">
+            <a class="social-link" href="https://www.youtube.com/c/HTMLAcademyRUS">
+              <span class="visually-hidden">YouTube</span>
+            </a>
+          </li>
+        </ul>
+      </section>
+      <a href="tel:+78128121212">Тел.: +7 (812) 812-12-12</a>
+      <a href="https://htmlacademy.ru/">
+        <img src="#" alt="Логотип HTML Academy">
+      </a>
+    </footer>
   </body>
 </html>
