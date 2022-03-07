@@ -11,7 +11,7 @@
         <ul class="navigation-list">
           <li class="navigation-item">
             <a class="navigation-link" href="index.html">
-              <img src="images/sedona-logo.svg" width="100" height="50" alt="Sedona's logo">
+              <img src="images/sedona-logo.svg" width="100" height="50" alt="Логотип Седоны.">
             </a>
           </li>
           <li class="navigation-item">
@@ -40,58 +40,58 @@
       </nav>
     </header>
     <main>
-      <section class="hotel-form">
-        <h2>Гостиницы Седоны</h2>
-        <div class="breadcrumbs">
-          <ul class="breadcrumbs-list">
-            <li>
-              <a href="#"><span class="visually-hidden">Главная</span></a>
-            </li>
-            <li>
-              <a href="#">Гостиницы</a>
-            </li>
-          </ul>
+      <section class="intro">
+        <h1>Гостиницы Седоны</h1>
+        <ol class="breadcrumbs-list">
+          <li>
+            <a href="#"><span class="visually-hidden">Главная</span></a>
+          </li>
+          <li>
+            <a href="#">Гостиницы</a>
+          </li>
+        </ol>
+        <div class="form-filter-wrapper">
+          <form action="https://echo.htmlacademy.ru/" method="get">
+            <fieldset>
+              <legend>Инфраструктура</legend>
+              <label for="swimpool">Бассейн</label>
+              <input type="checkbox" id="swimpool" name="swimpool">
+
+              <label for="parking">Паркинг</label>
+              <input type="checkbox" id="parking" name="parking">
+
+              <label for="wifi">Wi-Fi</label>
+              <input type="checkbox" id="wifi" name="wifi">
+            </fieldset>
+            <fieldset>
+              <legend>Тип жилья</legend>
+
+              <label for="hotel-radio">Гостиница</label>
+              <input type="radio" id="hotel-radio" name="hotel-radio">
+
+              <label for="motel-radio">Мотель</label>
+              <input type="radio" id="motel-radio" name="motel-radio">
+
+              <label for="apartment-radio">Апартаменты</label>
+              <input type="radio" id="apartment-radio" name="apartment-radio">
+            </fieldset>
+            <fieldset>
+              <legend>Стоимость, ₽:</legend>
+
+              <label for="min">0 <span>от</span> </label>
+              <input type="number" id="min">
+
+              <label for="max">5000 <span>до</span> </label>
+              <input type="number" id="max">
+
+              <input type="range" id="price" name="price" min="0" max="10000">
+            </fieldset>
+            <fieldset>
+              <button type="submit">Применить</button>
+              <button type="reset">Сбросить</button>
+            </fieldset>
+          </form>
         </div>
-        <form action="" method="get">
-          <fieldset>
-            <legend>Инфраструктура</legend>
-            <label for="swimpool">Бассейн</label>
-            <input type="checkbox" id="swimpool" name="swimpool">
-
-            <label for="parking">Паркинг</label>
-            <input type="checkbox" id="parking" name="parking">
-
-            <label for="wifi">Wi-Fi</label>
-            <input type="checkbox" id="wifi" name="wifi">
-          </fieldset>
-          <fieldset>
-            <legend>Тип жилья</legend>
-
-            <label for="hotel-radio">Гостиница</label>
-            <input type="radio" id="hotel-radio" name="hotel-radio">
-
-            <label for="motel-radio">Мотель</label>
-            <input type="radio" id="motel-radio" name="motel-radio">
-
-            <label for="apartment-radio">Апартаменты</label>
-            <input type="radio" id="apartment-radio" name="apartment-radio">
-          </fieldset>
-          <fieldset>
-            <legend>Стоимость, ₽:</legend>
-
-            <label for="min">0 <span>от</span> </label>
-            <input type="number" id="min">
-
-            <label for="max">5000 <span>до</span> </label>
-            <input type="number" id="max">
-
-            <input type="range" id="price" name="price" min="0" max="10000">
-          </fieldset>
-          <fieldset>
-            <button type="submit">Применить</button>
-            <button type="reset">Сбросить</button>
-          </fieldset>
-        </form>
       </section>
       <div class="catalog">
         <p>Найдено гостиниц: 38</p>
@@ -124,7 +124,7 @@
         <ul class="catalog-list">
           <li class="catalog-item">
             <article class="hotel-item">
-              <img src="images/hotel-1.jpg" width="300" height="206" alt="Вид на Amara Resort & Spa">
+              <img src="images/hotel-1.jpg" width="300" height="206" alt="Вид на Amara Resort & Spa.">
               <h3>Amara Resort & Spa</h3>
               <div class="about-hotel">
                 <span>Гостиница</span>
@@ -142,7 +142,7 @@
           </li>
           <li class="catalog-item">
             <article class="hotel-item">
-              <img src="images/hotel-2.jpg" width="300" height="206" alt="Вил на Desert Quail Inn">
+              <img src="images/hotel-2.jpg" width="300" height="206" alt="Вил на Desert Quail Inn.">
               <h3>Desert Quail Inn</h3>
               <div class="about-hotel">
                 <span>Гостиница</span>
@@ -160,7 +160,7 @@
           </li>
           <li class="catalog-item">
             <article class="hotel-item">
-              <img src="images/hotel-3.jpg" width="300" height="206" alt="Вид на Villas at Poco Diablo">
+              <img src="images/hotel-3.jpg" width="300" height="206" alt="Вид на Villas at Poco Diablo.">
               <h3>Villas at Poco Diablo</h3>
               <div class="about-hotel">
                 <span>Гостиница</span>
@@ -178,7 +178,7 @@
           </li>
           <li class="catalog-item">
             <article class="hotel-item">
-              <img src="images/hotel-4.jpg" width="300" height="206" alt="Вид на GreenTree Inn">
+              <img src="images/hotel-4.jpg" width="300" height="206" alt="Вид на GreenTree Inn.">
               <h3>GreenTree Inn</h3>
               <div class="about-hotel">
                 <span>Гостиница</span>
@@ -274,7 +274,7 @@
       </section>
       <a href="tel:+78128121212">Тел.: +7 (812) 812-12-12</a>
       <a href="https://htmlacademy.ru/">
-        <img src="images/htmacademy-logo.svg" width="115" height="33" alt="Логотип HTML Academy">
+        <img src="images/htmacademy-logo.svg" width="115" height="33" alt="Логотип HTML Academy.">
       </a>
     </footer>
   </body>
